@@ -1,0 +1,14 @@
+.header {
+    display: flex;
+    flex-direction: column;
+    .header-text {
+        width: 405px;
+        height: 50px;
+        h3 {
+            font-size: 'Product Sans';
+            font-weight: 700;
+            font-size: 36px;
+            line-height: 50px;
+        }
+    }
+}

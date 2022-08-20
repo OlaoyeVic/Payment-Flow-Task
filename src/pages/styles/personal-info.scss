@@ -1,0 +1,70 @@
+.personal-info {
+    margin-top: 50px;
+    .form-container Input {
+        margin-bottom: 30px;
+    }
+    .lga {
+        display: flex;
+        flex: 1;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        max-width: 100%;
+        Input {
+            width: 320px;
+        }
+        .custom-select {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            label {
+                font-family: 'Product Sans';
+                font-style: normal;
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 30px;
+            }
+            select {
+                margin-bottom: 30px;
+                height: 44px;
+                width: 160px;
+                outline: none;
+                border: none;
+                border: 1px solid #4E598C;
+                border-radius: 10px;
+                padding: 10px 20px 10px 20px;
+            }
+        }
+    }
+    .button {
+        width: 300px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 70px;
+        margin-top: 50px;
+        Button {
+            white-space: nowrap;
+            cursor: pointer;
+        }
+    }
+    // div > Button:first-child {
+    //     font-family: 'Product Sans';
+    //     font-style: normal;
+    //     font-weight: 700;
+    //     font-size: 20px;
+    //     line-height: 30px;
+    //     color: #F7F7FF;
+    //     min-width: 200px;
+    //     height: 58px;
+    // }
+    // div > Button:nth-of-type(2) {
+    //     font-family: 'Product Sans';
+    //     font-style: normal;
+    //     font-weight: 700;
+    //     font-size: 20px;
+    //     line-height: 30px;
+    //     color: #4E598C;
+    //     margin: auto;
+    // }
+}
