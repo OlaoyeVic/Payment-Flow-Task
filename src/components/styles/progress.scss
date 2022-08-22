@@ -5,18 +5,22 @@
         justify-content: space-between;
         align-items: center;
         position: relative;
+        transition: 0.3s;
+        ::after {
+            content: '';
+            height: 10px;
+            width: 100px;
+            background: #F2994A;
+            border-radius: 10px;
+            display: block;
+            position: absolute;
+            left: 0;
+            top: 30px;
+        }
         .active {
             color: #F2994A;
-            ::after {
-                content: '';
-                height: 10px;
+            &::after {
                 width: 100px;
-                background: #F2994A;
-                border-radius: 10px;
-                display: block;
-                position: absolute;
-                left: 0;
-                top: 30px;
             }
         }
     }
@@ -25,7 +29,7 @@
         height: 1px;
         background: #000000;
         color: #000000;
-        width: 401px;
+        width: 531px;
         display: block;
     }
 }

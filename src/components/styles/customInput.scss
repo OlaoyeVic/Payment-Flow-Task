@@ -1,7 +1,8 @@
 .custom__input {
-    // position: relative;
+    position: relative;
     display: flex;
-    justify-content: left;
+    // justify-content: right;
+    // align-items: flex-start;
     flex-direction: column;
     gap: 12px;
     margin-bottom: 0;
@@ -21,7 +22,6 @@
     input:focus {
         border-color: #4dabf7;
         outline: none;
-        // box-shadow: inset 0 1px 1px rgb(0, 0, 0 / 1%), 0 0 8px #61436A;
     }
     input::placeholder {
         font-family: 'Product Sans';
